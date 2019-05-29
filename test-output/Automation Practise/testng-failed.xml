@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Practise]">
+  <test thread-count="5" name="Practise(failed)">
+    <parameter name="first name" value="sekhar"/>
+    <parameter name="url" value="http://demo.automationtesting.in/Register.html"/>
     <classes>
       <class name="Com.parametertest.LoginwithParameter">
         <methods>
@@ -11,5 +13,5 @@
         </methods>
       </class> <!-- Com.parametertest.LoginwithParameter -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Practise(failed) -->
+</suite> <!-- Failed suite [Automation Practise] -->

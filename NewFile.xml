@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Practise">
+	<test name="Practise">
+		<parameter name="browser" value="chrome"/>
+		<parameter name="url" value="http://demo.automationtesting.in/Register.html"/>
+		<parameter name="firstname" value="sekhar"/>
+		
+	<classes>
+		<class name="Com.parametertest.LoginwithParameter"/>	
+	</classes>
+	</test>
+
+
+</suite>

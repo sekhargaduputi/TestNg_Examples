@@ -29,11 +29,11 @@ public class Annotation_Examples {
 	public void enterurl(){
 		System.out.println("Enter URL");
 	}
-	@Test
+	@Test(priority=1)
 	public void a(){
 		System.out.println("a test");
 	}
-	@Test                    //5
+	@Test (priority=2)                   //5
 	public void googletittle(){
 		System.out.println("Google tittle");  
 	}
